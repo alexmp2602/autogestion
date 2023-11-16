@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.verde {
+  color: #BED630;
+}
+
+.bg-verde {
+  background-color: #BED630;
+}
+
+.verde-oscuro {
+  color: #77BF43;
+}
+
+.bg-verde-oscuro {
+  background-color: #77BF43;
+}
+
+.magenta {
+  color: #EE5B99;
+}
+
+.bg-magenta {
+  background-color: #EE5B99;
+}
+
+.gris-oscuro {
+  color: #777372
+}
+
+.bg-gris-oscuro {
+  background-color: #777372
+}
+
+.celeste {
+  color: #91D5E2;
+}
+
+.bg-celeste {
+  background-color: #91D5E2;
+}
