@@ -7,7 +7,7 @@ function Headers() {
     <div className="flex justify-between items-center py-4 px-6 shadow-md">
       <div className="flex items-center">
         <Image src="/logo-2.png" alt="Logo" className="h-8" width={30} height={80}/>
-        <h1 className="ml-2 text-xl">Autogestión</h1>
+        <h1 className="ml-2 text-xl"></h1>
       </div>
       <div>
         <ModeToggle />
