@@ -6,11 +6,10 @@ import Link from "next/link";
 function Headers() {
   return (
     <div className="flex justify-between items-center py-4 px-6 shadow-md">
-      <Link href="/">
-        <div className="flex items-center">
-          <Image src="/logo-sistemas2.png" alt="Logo" width={76} height={76} />
-        </div>
-      </Link>
+      <div className="flex items-center">
+        <Image src="/logo-2.png" alt="Logo" className="h-8" width={30} height={80}/>
+        <h1 className="ml-2 text-xl">Autogestión</h1>
+      </div>
       <div>
         <ModeToggle />
       </div>
