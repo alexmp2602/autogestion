@@ -1,0 +1,1 @@
+export {default as Recibos} from './recibos.svg';

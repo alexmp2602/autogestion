@@ -8,8 +8,6 @@ import {
   FormDescription,
   FormField,
   FormItem,
-  FormLabel,
-  FormMessage,
 } from "../ui/form";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -128,7 +126,7 @@ const SignInForm = () => {
                   <div className={buttonVariants()}>
                     <Link
                       className="px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-verde-oscuro hover:bg-green-700"
-                      href="/sign-in"
+                      href="/dashboard"
                     >
                       Acceder
                     </Link>

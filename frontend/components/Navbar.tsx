@@ -7,8 +7,9 @@ function Headers() {
   return (
     <div className="flex justify-between items-center py-4 px-6 shadow-md">
       <div className="flex items-center">
-        <Image src="/logo-2.png" alt="Logo" className="h-8" width={30} height={80}/>
-        <h1 className="ml-2 text-xl">Autogestión</h1>
+        <Link rel="icon" href="/">
+        <Image src="/logo-sistemas2.png" alt="Logo" className="h-8" width={70} height={70}/>
+        </Link>
       </div>
       <div>
         <ModeToggle />
