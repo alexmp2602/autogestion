@@ -9,7 +9,7 @@ export default function Home() {
       className="flex flex-row items-center justify-center h-auto"
       style={{ minHeight: "calc(100vh - 80px)" }}
     >
-      <div className="flex flex-col items-center justify-center py-3 px-6 shadow-lg gris-oscuro">
+      <div className="flex flex-col items-center justify-center p-6 shadow-lg gris-oscuro">
         <h4>¡Bienvenido "{"name"}"!</h4>
         <Image
           src="/LOGO-AVATARMEN.png"
@@ -20,10 +20,10 @@ export default function Home() {
         />
         <h4>Legajo: (Número legajo)</h4>
         <h1>Sistema de autogestión</h1>
-        <div className="py-8">
+        <div className="flex flex-col gap-5 py-8">
           <div className={buttonVariants()}>
             <Link
-              className="w-full flex flex-row justify-around gap-28 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-verde-oscuro hover:bg-green-700"
+              className="rounded-lg w-full flex flex-row justify-around gap-28 p-2 border border-transparent text-sm font-medium text-white bg-verde-oscuro hover:bg-green-700"
               href="/dashboard"
             >
               Recibos <Image src="/Recibos.svg" alt="" width={20} height={20} className="h-6"/>
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className={buttonVariants()}>
             <Link
-              className="w-full flex flex-row justify-around gap-28 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-verde-oscuro hover:bg-green-700"
+              className="rounded-lg w-full flex flex-row justify-around gap-28 p-2 border border-transparent text-sm font-medium text-white bg-verde-oscuro hover:bg-green-700"
               href="/dashboard/"
             >
               Asistencias <Image src="/Asistencias.svg" alt="" width={20} height={20} className="h-6"/>
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
           <div className={buttonVariants()}>
             <Link
-              className="w-full flex flex-row justify-around gap-28 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-verde-oscuro hover:bg-green-700"
+              className="rounded-lg w-full flex flex-row justify-around gap-28 p-2 border border-transparent text-sm font-medium text-white bg-verde-oscuro hover:bg-green-700"
               href="/dashboard"
             >
               Compensatorios <Image src="/Compensatorios.svg" alt="" width={20} height={20} className="h-6"/>

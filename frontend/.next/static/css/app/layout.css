@@ -629,6 +629,9 @@ video {
 .h-4 {
   height: 1rem;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .h-8 {
   height: 2rem;
 }
@@ -649,12 +652,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-12 {
-  height: 3rem;
-}
-.h-6 {
-  height: 1.5rem;
 }
 .max-h-0 {
   max-height: 0px;
@@ -682,15 +679,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-32 {
-  width: 8rem;
-}
-.w-52 {
-  width: 13rem;
-}
-.w-64 {
-  width: 16rem;
 }
 .min-w-\[8rem\] {
   min-width: 8rem;
@@ -751,29 +739,11 @@ video {
 .justify-around {
   justify-content: space-around;
 }
-.gap-5 {
-  gap: 1.25rem;
-}
-.gap-px {
-  gap: 1px;
-}
-.gap-1 {
-  gap: 0.25rem;
-}
-.gap-2 {
-  gap: 0.5rem;
-}
-.gap-3 {
-  gap: 0.75rem;
-}
-.gap-9 {
-  gap: 2.25rem;
-}
-.gap-36 {
-  gap: 9rem;
-}
 .gap-28 {
   gap: 7rem;
+}
+.gap-5 {
+  gap: 1.25rem;
 }
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -799,6 +769,9 @@ video {
 }
 .rounded-2xl {
   border-radius: 1rem;
+}
+.rounded-lg {
+  border-radius: var(--radius);
 }
 .rounded-md {
   border-radius: calc(var(--radius) - 2px);
@@ -861,6 +834,12 @@ video {
 }
 .p-1 {
   padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .px-2 {
   padding-left: 0.5rem;
